@@ -1,1 +1,0 @@
-web: sh setup.sh && pip install --no-dependencies pycaret==2.2.2 && streamlit run app/streamlit_app.py

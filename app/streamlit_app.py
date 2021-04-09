@@ -5,9 +5,8 @@ import plotly.express as px
 from pycaret.regression import *
 
 # Config
-os.chdir(os.path.dirname(__file__))
-DIR_DATA = "../data/"
-DIR_MODELS = "../pickled-models/"
+DIR_DATA = "data/"
+DIR_MODELS = "pickled-models/"
 MODEL = "cboost"
 
 # Load dataset and model
